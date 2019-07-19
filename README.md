@@ -1,4 +1,5 @@
 # SurvivalAnalysis
+NOTE: github's rendering in notebook doesn't always work, if the ipynb file doesn't load, you can see it in https://nbviewer.jupyter.org/github/YIZHE12/SurvivalAnalysis/blob/master/EDA_survival_analysis.ipynb
 
 ## Background:
 Your team has been tasked with diagnosing why and when employees from your subsidiaries leave. 
