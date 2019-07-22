@@ -3,11 +3,15 @@ NOTE: github's rendering in notebook doesn't always work, if the ipynb file does
 
 
 ## Background:
-Your team has been tasked with diagnosing why and when employees from your subsidiaries leave.
+You belong to the people analytics team for a food conglomerate. Employee turnover
+has been rampant for your 10 subsidiaries. The CFO estimates that the cost of
+replacing an employee is often larger than 100K USD, taking into account the time
+spent to interview and find a replacement, placement fees, sign-on bonuses and the
+loss of productivity for several months.
 
-You need a tangible data-driven recommendation for each of the ten Presidents of your subsidiaries.
-
-What are your recommendations and why?
+Your team has been tasked with diagnosing why and when employees from your
+subsidiaries leave. You need a tangible data-driven recommendation for each of the ten
+Presidents of your subsidiaries. What are your recommendations and why?
 
 ### Quick look:
 This is a survival analysis tasks that I solved using Kaplan Meier plot and Cox Proportional-Hazards Model. There are some data cleaning to do as the datedata is several formats. There are also outliers in the data. For examples, two data points have seniority of 90 years which is not likely as we don't expect someone who have worked for 90 years. For more information, you can have a look at the pdf file in the repo.
